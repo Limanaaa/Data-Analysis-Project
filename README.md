@@ -1,2 +1,3 @@
 # Data-Analysis-Project
-Common code for the Data Analysis Project
+
+Code for data analysis project
