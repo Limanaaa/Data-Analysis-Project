@@ -1,0 +1,11 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Project data folders
+lookup_tables/
+words_dictionary/
+
+# OS
+.DS_Store
+Thumbs.db
