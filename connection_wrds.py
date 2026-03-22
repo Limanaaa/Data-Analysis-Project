@@ -3,8 +3,8 @@
 import wrds
 
 # Credential variables
-my_username = ""
-my_password = ""
+my_username = "alexandre_v"
+my_password = "nojvub-tyxfif-batgY8"
 
 print("Connecting to WRDS...")
 db = wrds.Connection(wrds_username=my_username, wrds_password=my_password)
@@ -16,3 +16,5 @@ print("\n--- Downloaded Data ---")
 print(df)
 
 db.close()
+
+# %%
