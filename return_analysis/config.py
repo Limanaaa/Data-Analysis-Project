@@ -9,6 +9,8 @@ print("Connecting to WRDS...")
 db = wrds.Connection(wrds_username=my_username, wrds_password=my_password)
 print('WRDS connected!')
 
+TARGET_YEAR = 2010
+
 if __name__ == "__main__":
 
     sql_query = "SELECT permno, date, prc, ret, vol FROM crsp.dsf LIMIT 5"
