@@ -60,3 +60,19 @@ Bottom 20 firms → short
 - No duplicate tickers within the same file.
 
 This format will allow the backtest code to directly build portfolios and compute returns.
+
+## return analysis
+
+**IMMPORTANT!!!! go to config.py AND change username and psw for wrds**
+
+`get_return.py` needs input as the following format:
+
+```python
+
+    events_df = pd.DataFrame({
+        "ticker": ["AAPL", "MSFT", "NVDA"],
+        "investment_date": ["2024-01-15", "2024-02-01", "2024-03-01"],
+        "holding_days": [63, 63, 63]
+    })
+
+```
